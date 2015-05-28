@@ -1,0 +1,147 @@
+/*
+	Wp iTunes & App Store
+*/
+
+#wpasc_gallery {
+  padding:0; 
+  margin:0; 
+  list-style-type:none; 
+  overflow:hidden; 
+  width:480px; 
+  height:490px; 
+  border:1px solid #888; 
+  background:#fff;
+  }
+#wpasc_gallery li {
+  float:left;
+  }
+#wpasc_gallery li a {
+  display:block; 
+  height:30px;
+  width:450px; 
+  float:left; 
+  text-decoration:none; 
+  border-bottom:1px solid #fff; 
+  cursor:default;
+  }
+#wpasc_gallery li a img {
+  width:480px; 
+  height:30px; 
+  border:0;
+  }
+#wpasc_gallery li a:hover {
+  background:#eee;
+  height:360px;
+  }
+#wpasc_gallery li a:hover img {
+  height:360px;
+  }
+
+.wpasc_rounded {
+border: 0px solid #FFFFFF;
+-moz-border-radius:10px; /* Firefox */
+-webkit-border-radius:10px; /* Safari, Chrome */
+-khtml-border-radius:10px; /* Konqueror */
+border-radius:10px; /* CSS3 */
+}
+
+.wpasc_shadow {
+-webkit-box-shadow: 10px 10px 10px #C0C0C0;
+-moz-box-shadow: 10px 10px 10px #C0C0C0;
+box-shadow: 10px 10px 10px #C0C0C0;
+}
+
+.wpasc_container {
+position:relative;
+width:500px;
+height:520px;
+margin:10px auto;
+}
+
+.wpasc_container a.wpasc_pics {
+float:left;
+padding:5px 5px;
+display:inline;
+}
+
+.wpasc_container a.wpasc_pics span {
+display:none;
+}
+
+.wpasc_container a.wpasc_pics:hover span {
+display:block;
+position:absolute;
+left:0px;
+top:100px;
+z-index:10;
+}
+
+.wpasc_container a.wpasc_pics:active img.wpasc_thumb {
+border:1px solid #fc0;
+}
+
+.wpasc_container a.wpasc_pics:active span {
+display:block;
+position:absolute;
+left:0px;
+top:100px;
+z-index:5;
+}
+
+.wpasc_container a.wpasc_pics:focus {
+outline:0;
+}
+
+.wpasc_container a.wpasc_pics:focus img.wpasc_thumb {
+border:1px solid #fc0
+}
+
+.wpasc_container a.wpasc_pics:focus span {
+display:block;
+position:absolute;
+left:0px;
+top:100px;
+z-index:5;
+outline:0;
+}
+
+#wpasc_tabs{
+    margin-left: 0px:
+	position:relative;
+    white-space: nowrap;
+}
+#wpasc_tabs li{
+    margin-left: 0px:
+    position: relative;
+    display: inline-block;
+    padding: 2px;
+    background-color: #eee;
+    font-size: 12px;
+    color: #21759b;
+}
+
+#wpasc_tabs li a{
+    margin-left: 0px:
+    text-decoration: none;
+    display: block;
+    padding: 2px;
+    font-size: 12px;
+    color: #21759b;
+}
+#wpasc_tabs li:hover a{
+    background-color: #eef;
+}
+
+#wpasc_tabscontent{
+    margin-left: 0px:
+	height: 550px;
+	width: 250px;
+    overflow:hidden;
+    border-top: solid 5px #eee;
+}
+#wpasc_tabscontent li div.wpasc_tabssubli{
+    margin-left: 0px:
+    height: 550px;
+    width: 250px;
+    overflow:scroll;
+}
